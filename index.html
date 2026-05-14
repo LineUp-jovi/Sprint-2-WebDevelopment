@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Simples</title>
 
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
   <!-- Ligando o CSS -->
   <link rel="stylesheet" href="./CSS/style.css">
 </head>
@@ -15,10 +18,18 @@
     <h2>Login</h2>
 
     <input type="text" id="usuario" placeholder="Usuário">
-    <input type="password" id="senha" placeholder="Senha">
+    <div class="teste">
+      <input type="password" id="senha" placeholder="Senha">
 
-    <!-- Botão linkado com a função do JavaScript -->
-    <button onclick="fazerLogin()">Enviar</button>
+      <!-- Botão para poder ver a senha -->
+      <button class="btn-verSenha" onclick="mostrarSenha()"><i class="fa-regular fa-eye"></i></button>
+    </div>
+    <div class="link">
+      <!-- Botão linkado com a função do JavaScript -->
+      <button class="btn-enviar" onclick="fazerLogin()">Enviar</button>
+
+      <a href=""> Create acount</a>
+    </div>
     
   </div>
 
