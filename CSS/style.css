@@ -71,7 +71,7 @@ input {
   font-size: 18px;
 }
 
-button:hover {
+.btn-enviar:hover {
   background: var(--color-dark-blue);
 }
 

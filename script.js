@@ -9,7 +9,8 @@ function fazerLogin() {
 
   if (usuario === usuarioCorreto && senha === senhaCorreta) {
     alert("Login realizado com sucesso!")
-
+    window.open('./home.html');
+    
   } else {
     alert("Usuário ou senha incorretos!")
   }
